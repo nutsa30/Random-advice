@@ -6,6 +6,9 @@ body{
     
 }
 
+.mobileImg{
+    display: none;
+}
 .container{
     display: flex;
     flex-direction: column;
@@ -41,7 +44,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: -20px auto;
+    margin: -20px auto ;
     width: 70px;
     height: 70px;
     border-radius: 50px;
@@ -61,7 +64,52 @@ body{
 }
 
 
+@media (max-width: 500px) {
+
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        
+        
+        
+        height: 250px;
+        width: 400px;
+        background-color:hsl(217, 19%, 24%);
+        margin: auto;
+        border-radius: 15px;
+      
 
 
 
 
+      
+    }
+
+
+    .desktopImg{
+        display: none;
+    }
+    .mobileImg{
+        display: flex;
+    }
+
+
+
+    .advice {
+        font-size: smaller;
+
+       
+    }
+    }
+
+    .paragraph {
+        font-size: 18px; 
+    }
+
+    .dice {
+        width: 50px; 
+        height: 50px;
+        margin: -20 auto;
+    }
