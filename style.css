@@ -6,66 +6,74 @@ body{
     
 }
 
-.mobileImg{
-    display: none;
-}
-.container{
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
     
-    
-    height: 300px;
-    width: 500px;
-    background-color:hsl(217, 19%, 24%);
-    margin: auto;
-    border-radius: 15px;
-
-    
-}
-.advice{
    
-    padding: 20px;
-    color:  hsl(150, 100%, 66%);
-    font-family: "Manrope",sans-serif;
-    font-weight: 800;
-    font-size: small;
-}
-
-.paragraph{
-    color: hsl(193, 38%, 86%);
-    font-size: 28px;
-    text-align: center;
-}
-
-.dice{
-
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: -20px auto ;
-    width: 70px;
-    height: 70px;
-    border-radius: 50px;
-    background-color: hsl(150, 100%, 66%);
-    cursor: pointer;
     
-}
+    .mobileImg{
+        display: none;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        
+        
+        height: 300px;
+        width: 500px;
+        background-color:hsl(217, 19%, 24%);
+        margin: auto;
+        border-radius: 15px;
+    
+        
+    }
+    .advice{
+       
+        padding: 20px;
+        color:  hsl(150, 100%, 66%);
+        font-family: "Manrope",sans-serif;
+        font-weight: 800;
+        font-size: small;
+    }
+    
+    .paragraph{
+        color: hsl(193, 38%, 86%);
+        font-size: 28px;
+        text-align: center;
+    }
+    
+    .dice{
+    
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: -20px auto ;
+        width: 70px;
+        height: 70px;
+        border-radius: 50px;
+        background-color: hsl(150, 100%, 66%);
+        cursor: pointer;
+        
+    }
+    
+    
+    
+    
+    
+    .dice:hover{
+        background-color: hsl(150, 96%, 36%);
+        border-radius: 30px;
+        transition: 0.5s;
+    }
+    
 
 
 
 
 
-.dice:hover{
-    background-color: hsl(150, 96%, 36%);
-    border-radius: 30px;
-    transition: 0.5s;
-}
+@media (max-width: 320px) {
 
-
-@media (max-width: 500px) {
-
+    
     
     .container {
         display: flex;
@@ -74,16 +82,13 @@ body{
         
         
         
+        
         height: 250px;
-        width: 400px;
+        width: 80%;
         background-color:hsl(217, 19%, 24%);
         margin: auto;
         border-radius: 15px;
       
-
-
-
-
       
     }
 
@@ -93,6 +98,7 @@ body{
     }
     .mobileImg{
         display: flex;
+        width: 80%;
     }
 
 
