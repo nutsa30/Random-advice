@@ -65,13 +65,11 @@ body{
         border-radius: 30px;
         transition: 0.5s;
     }
-    
 
 
 
 
-
-@media (max-width: 320px) {
+@media (max-width: 500px) {
 
     
     
@@ -79,6 +77,7 @@ body{
         display: flex;
         flex-direction: column;
         align-items: center; 
+        
         
         
         
@@ -115,7 +114,14 @@ body{
     }
 
     .dice {
+       
         width: 50px; 
         height: 50px;
         margin: -20 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
     }
+
+
